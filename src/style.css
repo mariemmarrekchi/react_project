@@ -1,0 +1,139 @@
+#h1 {
+  font-size: 50px;
+  color: rgb(211, 119, 32);
+  font-family: "cursive";
+  font-weight: bold;
+
+  color: orangered;
+  margin-left: -150px;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+}
+h6 {
+  font-size: 25px;
+  font-family: serif;
+}
+
+*/#sing {
+  color: #ff3366;
+  font-size: 25px;
+  font-family: serif;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {
+    color: orange;
+  }
+  to {
+    color: orangered;
+  }
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {
+    color: orange;
+  }
+  to {
+    color: orangered;
+  }
+}
+
+#services {
+  margin-top: 100px;
+  font-weight: 700;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 1.2;
+  color: rgb(235, 28, 148);
+  font-size: 50px;
+}
+
+.col-sm-12 {
+  text-align: justify;
+}
+#div1 {
+  background-color: rgb(208, 231, 233);
+}
+#paraghraphe {
+  margin-top: 50px;
+  color: rgb(175, 123, 54);
+
+  font-size: 50px;
+  font-family: Montserrat;
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: white;
+}
+input[type="submit"].hover {
+  background-color: rgb(43, 124, 43);
+}
+p {
+  font-size: 30px;
+  color: rgb(219, 17, 108);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+  color: black;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55acee;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+.col1 {
+  background-color: #f2f2f2;
+}
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}

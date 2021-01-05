@@ -1,0 +1,14 @@
+#div {
+  background-image: url("https://2.bp.blogspot.com/-mRwQGzt06N4/V6eLanGjmuI/AAAAAAAABGM/sY2QqsA9m9wdtonKaU-FCC3P24JGK_ciwCLcB/s1600/tumblr_n0be8bav691t5mht1o1_500.gif");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+#livres {
+  font-weight: bold;
+  font-size: 55px;
+  color: rgb(236, 185, 44);
+}
+.margin {
+  margin-top: 90px;
+}
