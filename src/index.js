@@ -18,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+     <Route excat path="/" component={AppMovie} />
         <Route excat path="/AppMovie" component={AppMovie} />
         <Route path="/Login" component={Login} />
         <Route path="/Home" component={Home} />
